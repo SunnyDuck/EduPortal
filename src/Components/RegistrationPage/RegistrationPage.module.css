@@ -1,0 +1,11 @@
+.registrPage{
+    color: rgb(249, 219, 65);
+    text-align: center;
+}
+
+.registrSettings{
+    margin-left: 34%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}

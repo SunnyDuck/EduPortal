@@ -1,0 +1,17 @@
+.app-wrapper{
+  height: 1000px;
+  margin: 0 auto ;
+  display: grid;
+  grid-template-areas:
+  'h h'
+  'n w';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 3fr 10fr;
+  background-image: url("https://img.freepik.com/premium-vector/school-seamless-scientific-pattern-formulae-chemistry-physics-geometry-mathematics_275952-179.jpg?w=1800");
+}
+
+.app-wrapper-content{
+  grid-area: w;
+  color: white;
+  padding: 20px;
+}

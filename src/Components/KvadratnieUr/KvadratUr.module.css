@@ -1,0 +1,45 @@
+.kvadratUr{
+    color: rgb(249, 219, 65);
+    text-align: center;
+}
+
+.tableWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kvadratUr img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+}
+
+.firTable{
+    width: 40%;
+    background-color: teal;
+}
+
+.secTable{
+    width: 40%;
+    background-color: teal;
+}
+
+.item{
+    margin-top: 20px;
+    color: rgb(249, 219, 65);
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.item a.active{
+    margin-top: 20px;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 50px;
+}

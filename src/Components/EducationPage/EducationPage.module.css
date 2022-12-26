@@ -1,0 +1,19 @@
+.eduPage{
+    color: rgb(249, 219, 65);
+    text-align: center;
+    font-size: 30px;
+}
+
+.item{
+    margin-top: 20px;
+    color: rgb(249, 219, 65);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.item a.active{
+    margin-top: 20px;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 30px;
+}

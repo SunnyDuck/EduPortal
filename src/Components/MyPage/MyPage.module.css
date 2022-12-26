@@ -1,0 +1,41 @@
+.pageWrapper{
+    display: grid;
+    grid-template-areas:
+    'c c c'
+    'a d p';
+    grid-template-rows: 500px 1fr;
+    grid-template-columns: 2fr 10fr 10fr;
+    grid-gap: 20px;
+}
+
+.contentBoard{
+    grid-area: c;
+    width: 95%;
+    height: 500px;
+    background-image: url("contentBoard.png");
+    border-radius: 30px;
+}
+
+.avatar{
+    margin-top: 25px;
+    grid-area: a;
+}
+
+.avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.description{
+    margin-left: 100px;
+    grid-area: d;
+    font-size: 30px;
+    color: rgb(249, 219, 65);
+}
+
+.progress{
+    grid-area: p;
+    font-size: 30px;
+    color: rgb(249, 219, 65);
+}

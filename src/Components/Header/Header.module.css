@@ -1,0 +1,29 @@
+.AllHeader{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    grid-area: h;
+}
+
+.header img{
+    border-radius: 10%;
+    width: 60px;
+}
+
+.item{
+    margin-top: 20px;
+    color: rgb(249, 219, 65);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.item a.active{
+    margin-top: 20px;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+}
